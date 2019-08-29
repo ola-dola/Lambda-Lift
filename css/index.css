@@ -259,6 +259,11 @@ main .cust-container .mid-section .midImage img {
   width: 100%;
   margin: 0 auto;
 }
+@media (max-width: 500px) {
+  main .cust-container {
+    overflow: hidden;
+  }
+}
 footer {
   background-color: black;
   color: aliceblue;
