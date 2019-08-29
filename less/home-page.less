@@ -1,6 +1,50 @@
+.intro {
+	.center-flex();
+	padding-bottom: 0;
+	background-color: rgb(228, 211, 214);
+  
+	.introPar {
+	  .center-flex();
+	  color: #270609;
+	  text-align: center;
+  
+	  h1 {
+		max-width: 70%;
+		// padding-bottom: 1rem;
+	  }
+  
+	  h2 {
+		padding: 1.5rem;
+	  }
+  
+	  .pitch {
+		width: 45%;
+		color: rgb(68,66,67);
+	  }
+  
+	  .btn {
+		font-size: 3rem;
+		padding: 1rem 2rem;
+		background-color: royalblue;
+		border: transparent;
+		border-radius: .5rem;
+		color: antiquewhite;
+		text-decoration: none;
+		margin: 1.5rem;
+  
+		@media @phone {
+		  font-size: 3rem;
+		  width: 80%;
+		  border-radius: 1rem;
+		}
+	  }
+	}
+  
+}
+  
 main {
 	
-	.mid-section #midImage {
+	.mid-section .midImage {
 		// width: 100%;
 		
 		img {
@@ -29,17 +73,27 @@ main {
 	}
 
 	.cust-container {
-		background-color: rgb(34,40,58);
-		// width: 98%;
-		margin: 0 auto;
-		display: flex;
-		justify-content: space-around;
-		padding: 1.5rem;
-		flex-wrap: wrap;
-
-		div img {
-			padding: 1.5rem;
-			border-radius: 4rem;
+		.mid-section .midImage {
+			// width: 100%;
+			
+			img {
+				width: 100%;
+				// padding: 0 1%;
+				margin: 0 auto;
+			}
 		}
+	
+		// background-color: rgb(34,40,58);
+		// // width: 98%;
+		// margin: 0 auto;
+		// display: flex;
+		// justify-content: space-around;
+		// padding: 1.5rem;
+		// flex-wrap: wrap;
+
+		// div img {
+		// 	padding: 1.5rem;
+		// 	border-radius: 4rem;
+		// }
 	}
 }

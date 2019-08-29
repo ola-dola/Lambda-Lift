@@ -1,0 +1,76 @@
+.career-intro {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: papayawhip;
+
+    img {
+        width: 100%;
+        height: 40rem;
+
+        @media @phone {
+            height: auto;
+        }
+    }
+    h3 {
+        padding: 1rem;
+    }
+}
+
+.carPitch {
+    
+    width: 100%;
+    padding: 5rem 20%;
+    text-align: center;
+    border-bottom: 1.5px solid darkgray;
+    margin-bottom: 1.5rem;
+}
+
+.box-shadow {
+    margin: 0 auto;
+
+    div {
+        display: inline-block;
+        width: 30%;
+        padding: 2rem;
+        margin: 1.5rem;
+        text-align: justify;
+        box-shadow: 5px 5px .3rem grey;
+
+        @media @phone {
+            display: flex;
+            flex-direction: column;
+            width: inherit;
+
+            img {
+                width: auto;
+                max-width: 20%;
+            }
+        }
+    }
+}
+
+.mail-us {
+    margin: 2rem;
+    h3 {
+        padding: 2rem;
+    }
+    .btn {
+		font-size: 2rem;
+		padding: 1rem 2rem;
+		background-color: royalblue;
+		border: transparent;
+		border-radius: .5rem;
+		color: antiquewhite;
+		text-decoration: none;
+		margin: 1.5rem;
+  
+		@media @phone {
+		  font-size: 3rem;
+		  width: 80%;
+		  border-radius: 1rem;
+        }
+    }
+}
