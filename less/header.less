@@ -1,0 +1,43 @@
+
+header {
+  width: 100%;
+  margin: 0 auto;
+  background-color: darken(rgb(228, 211, 214), 10%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  #logo-img {
+    height: 85px;
+    // border: 1px solid black;
+    padding: 0 2.5rem;
+    // margin: 0;
+  }
+
+  nav {
+    padding: 2rem;
+
+    a {
+      font-size: 1.5rem;
+      text-decoration: none;
+      color: #270609;
+      padding: 1.0rem;
+    }
+
+    @media @phone {
+      display: none;
+      // flex-direction: column;
+      // justify-content: center;
+      // align-items: center;
+      // flex-wrap: wrap;
+    }
+  }
+
+  @media @phone {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // flex-wrap: wrap;
+  }
+
+}
